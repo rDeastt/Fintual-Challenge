@@ -1,0 +1,50 @@
+<div class="p-6 max-w-6xl mx-auto">
+
+  <h1 class="text-2xl font-bold mb-4">
+    Variación mensual de fondos Fintual
+  </h1>
+
+  <!-- Filtros -->
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+    <select
+      #fundSelect
+      class="border p-2 rounded-lg"
+      (change)="selectedFund.set(+fundSelect.value)">
+
+      @for (fund of funds; track fund.id) {
+        <option [value]="fund.id">{{ fund.name }}</option>
+      }
+    </select>
+
+    <input type="date" class="border p-2 rounded-lg"
+      (change)="fromDate.set($event.target.value)" />
+
+    <input type="date" class="border p-2 rounded-lg"
+      (change)="toDate.set($event.target.value)" />
+
+    <button
+      class="bg-teal-400 text-white rounded-lg px-3"
+      (click)="loadData()">
+      Consultar
+    </button>
+  </div>
+
+  <!-- Estados -->
+  @if (loading()) {
+    <p class="text-gray-500">Cargando...</p>
+  }
+
+  @if (error()) {
+    <p class="text-red-600">{{ error() }}</p>
+  }
+  <!-- Grafico-->
+  @if (data().length > 0) {
+    <div class="rounded-lg">
+      <app-variation-chart [data]="data()"></app-variation-chart>
+    </div>
+  }
+  <!-- Tabla-->
+  @if (data().length > 0) {
+  <app-variation-table [data]="data()"/>
+  }
+</div>

@@ -1,0 +1,24 @@
+<table class="w-full border-collapse rounded-lg overflow-hidden shadow-lg my-5">
+    <thead>
+      <tr class="bg-teal-400 text-white">
+        <th class="p-3 text-left border border-teal-300">Mes</th>
+        <th class="p-3 text-left border border-teal-300">Inicio</th>
+        <th class="p-3 text-left border border-teal-300">Fin</th>
+        <th class="p-3 text-left border border-teal-300">Variación (%)</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      @for (row of data(); track row.month) {
+        <tr class="hover:bg-gray-100 transition-colors">
+          <td class="p-3 border border-gray-300">{{ row.month }}</td>
+          <td class="p-3 border border-gray-300">{{ row.startPrice | number:'1.2-2' }}</td>
+          <td class="p-3 border border-gray-300">{{ row.endPrice | number:'1.2-2' }}</td>
+          <td class="p-3 border border-gray-300 font-semibold"
+              [class.text-red-500]="row.variation < 0"
+              [class.text-green-600]="row.variation >= 0">
+            {{ row.variation | number:'1.2-2' }} %
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
