@@ -1,0 +1,53 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "FintualApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/funds/monthly-variation": {
+      "get": {
+        "tags": [
+          "Funds"
+        ],
+        "parameters": [
+          {
+            "name": "fundId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Funds"
+    }
+  ]
+}

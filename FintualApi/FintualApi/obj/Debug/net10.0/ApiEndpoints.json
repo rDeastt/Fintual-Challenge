@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "FintualApi.Controllers.FundsController",
+    "Method": "GetMonthlyVariation",
+    "RelativePath": "api/funds/monthly-variation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "from",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\services\\fintualservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\services\\fintualservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\models\\externals\\fintualresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\models\\externals\\fintualresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\models\\externals\\fintualday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\models\\externals\\fintualday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\models\\externals\\fintualattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\models\\externals\\fintualattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\services\\interfaces\\ifintualservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\services\\interfaces\\ifintualservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\models\\dtos\\monthlyvariationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\models\\dtos\\monthlyvariationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\helpers\\fundhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\helpers\\fundhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\controllers\\fundscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\controllers\\fundscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|c:\\users\\green\\documents\\net apis\\fintualapi\\fintualapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCC3D18-70EB-2BA5-5263-1F26A4C28E08}|FintualApi\\FintualApi.csproj|solutionrelative:fintualapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FintualService.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Services\\FintualService.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Services\\FintualService.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Services\\FintualService.cs",
+              "RelativeToolTip": "FintualApi\\Services\\FintualService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:29:55.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFintualService.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Services\\Interfaces\\IFintualService.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Services\\Interfaces\\IFintualService.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Services\\Interfaces\\IFintualService.cs",
+              "RelativeToolTip": "FintualApi\\Services\\Interfaces\\IFintualService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:29:36.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FintualResponse.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\Externals\\FintualResponse.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Models\\Externals\\FintualResponse.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\Externals\\FintualResponse.cs",
+              "RelativeToolTip": "FintualApi\\Models\\Externals\\FintualResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:29:23.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FintualDay.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\Externals\\FintualDay.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Models\\Externals\\FintualDay.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\Externals\\FintualDay.cs",
+              "RelativeToolTip": "FintualApi\\Models\\Externals\\FintualDay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:29:13.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FintualAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\Externals\\FintualAttributes.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Models\\Externals\\FintualAttributes.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\Externals\\FintualAttributes.cs",
+              "RelativeToolTip": "FintualApi\\Models\\Externals\\FintualAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:29:11.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonthlyVariationDto.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\DTOs\\MonthlyVariationDto.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Models\\DTOs\\MonthlyVariationDto.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Models\\DTOs\\MonthlyVariationDto.cs",
+              "RelativeToolTip": "FintualApi\\Models\\DTOs\\MonthlyVariationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:29:09.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FundHelper.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Helpers\\FundHelper.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Helpers\\FundHelper.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Helpers\\FundHelper.cs",
+              "RelativeToolTip": "FintualApi\\Helpers\\FundHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T22:12:56.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FundsController.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Controllers\\FundsController.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Controllers\\FundsController.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Controllers\\FundsController.cs",
+              "RelativeToolTip": "FintualApi\\Controllers\\FundsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T22:12:52.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Program.cs",
+              "RelativeDocumentMoniker": "FintualApi\\Program.cs",
+              "ToolTip": "C:\\Users\\green\\Documents\\Net APIs\\FintualApi\\FintualApi\\Program.cs",
+              "RelativeToolTip": "FintualApi\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:26:43.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
