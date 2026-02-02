@@ -1,59 +1,40 @@
-# FintualApp
+# Frontend – Variación Mensual de Fondos Fintual
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+Este proyecto corresponde al frontend de una aplicación que muestra la variación mensual
+de los fondos de inversión de Fintual de forma gráfica e interactiva.
 
-## Development server
+El objetivo principal fue aprender y aplicar buenas prácticas modernas de Angular,
+enfocándose en la visualización de datos y el manejo del estado.
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+## ¿Qué se hizo?
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Se desarrolló el frontend usando **Angular 21**, utilizando componentes standalone y
+  manejo de estado con **Signals**.
+- El frontend **no consume directamente la API pública de Fintual**.  
+  En su lugar, se utiliza un **backend desarrollado en C# (.NET)** que entrega los datos
+  ya transformados y listos para ser mostrados.
+- Se implementaron **filtros por fondo y rango de fechas**, permitiendo al usuario decidir
+  qué información visualizar.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Visualización de datos
 
-```bash
-ng generate component component-name
-```
+- Se utilizó **Chart.js** para generar el gráfico de la variación mensual (%), mostrando
+  de forma clara cómo cambia el valor del fondo mes a mes.
+- Debajo del gráfico se agregó una **tabla**, lo que permite revisar los datos con mayor
+  detalle (precio inicial, precio final y variación por mes).
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+## Estilos
 
-## Building
+- Se utilizó **Tailwind CSS** para simplificar el manejo de estilos y evitar escribir CSS
+  personalizado innecesario.
+- Esto permitió concentrarse más en la lógica y estructura del proyecto que en el diseño.
 
-To build the project run:
 
-```bash
-ng build
-```
+## Decisiones técnicas
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Se separó la lógica de negocio en el backend para mantener el frontend más simple.
+- Se usaron **Signals** en lugar de Observables en la vista para manejar el estado de carga,
+  errores y datos de forma más clara.
